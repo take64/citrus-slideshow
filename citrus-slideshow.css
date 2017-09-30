@@ -1,0 +1,35 @@
+/**
+ * citrus-slideshow
+ * version 1.0.0.0
+ *
+ * jquery 3.2.1 later
+ *
+ * @copyright   Copyright 2017, Citrus/besidesplus All Rights Reserved.
+ * @author      take64 <take64@citrus.tk>
+ */
+
+.citrus-slideshow {
+    position: relative;
+    overflow: hidden;
+}
+.citrus-slideshow .cs-container {
+    position: relative;
+}
+.citrus-slideshow .cs-container .cs-item {
+    position: relative;
+    float: left;
+    text-align: center;
+}
+.citrus-slideshow .cs-arrow {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-color: #EEEEEE;
+    border: 4px solid #CCCCCC;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    line-height: 56px;
+    border-radius: 32px;
+    cursor: pointer;
+}
